@@ -48,7 +48,7 @@ class _EditItemScreenState extends State<EditItemScreen> {
               child: ElevatedButton(
                   onPressed: _deleteItem, child: const Text("Delete")),
             ),
-            ElevatedButton(onPressed: _editItem, child: const Text("Edit"))
+            ElevatedButton(onPressed: _editItem, child: const Text("Update"))
           ],
         ),
       ),
